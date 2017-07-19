@@ -1,6 +1,6 @@
-# tna-base child theme template
+# tna-base-cloud default child theme
 
-This should be used when creating new child themes for tna-base
+This should be used when creating new child themes for tna-base-cloud
 
 ### 1.0 Clone Github repository 'tna-base-child-template' using SourceTree
 
