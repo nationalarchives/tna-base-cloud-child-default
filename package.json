@@ -1,5 +1,5 @@
 {
-  "name": "tna-base-child",
+  "name": "tna-base-cloud-child",
   "version": "0.1.0",
   "devDependencies": {
     "grunt": "~0.4.5",
