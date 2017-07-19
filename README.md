@@ -6,7 +6,7 @@ This should be used when creating new child themes for tna-base-cloud
 
 Click 'Remote' in SourceTree and you will be shown a full list of repositories you have access to. Click on 'Clone' and follow the prompts.
 
-### 1.1 Create a new project for the WordPress installation in PhpStorm
+### 1.1 Create a new project in PhpStorm
 
 * Select 'Create New Project from Existing Files'
 * Select 'Web server is installed locally, source files are located under its document root'
