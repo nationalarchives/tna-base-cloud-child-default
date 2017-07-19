@@ -1,12 +1,5 @@
 <?php
 
-require_once 'src/setThemeGlobals.php';
-require_once 'src/identifyEnvironmentFromIP.php';
-
-// For Breadcrumbs and URLs
-$environment = identifyEnvironmentFromIP($_SERVER['SERVER_ADDR'], $_SERVER['REMOTE_ADDR']);
-setThemeGlobals($environment);
-
 // Dequeue parent styles for re-enqueuing in the correct order
 function dequeue_parent_style()
 {
@@ -38,13 +31,3 @@ function long_form_assets(){
 	}
 }
 add_action( 'wp_enqueue_scripts', 'long_form_assets' );
-
-function aria_labels(){
-	$img_title = get_post(get_post_thumbnail_id())->post_title;
-	$img_caption = get_post(get_post_thumbnail_id())->post_excerpt;
-	if ( $img_caption ) {
-		echo 'aria-labelledby="'.get_post_thumbnail_id().'"';
-	} else {
-		echo 'aria-label="'.$img_title.'"';
-	}
-}
