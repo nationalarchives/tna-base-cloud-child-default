@@ -18,8 +18,6 @@ Click 'Remote' in SourceTree and you will be shown a full list of repositories y
 
 ### 1.2 Installing dependencies
 
-This repository is configured to allow for easy integration with Travis CI (Continuous Integration).
-
 #### 1.2.1 Obtaining dependencies via Composer
 
 Having followed the steps above you will be able to install dependencies by typing ```composer install``` at the Terminal.
